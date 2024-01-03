@@ -14,7 +14,7 @@ const Popular = () => {
   const fetchPopularNews = async () => {
     try {
       const request = await fetch(
-        "'https://newsapi.org/v2/top-headlines?country=in&apiKey=94fda20d30cf4e1a9c6eccb88975aba2"
+        "https://newsapi.org/v2/top-headlines?country=in"
       );
       const response = await request.json();
       if (response.articles.length > 0) {
