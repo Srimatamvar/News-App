@@ -88,7 +88,7 @@ const Navbar = () => {
         <h1 className="text-lg font-extrabold italic text-lime-500">
           News@Sri ®
         </h1>
-        {/* {!userData?.isAuth ? (
+        { {!userData?.isAuth ? (
           <button
             onClick={signIn}
             className="px-4 py-1 rounded-md bg-lime-200 text-xs md:text-sm"
@@ -111,7 +111,7 @@ const Navbar = () => {
               Logout👋
             </button>
           </div>
-        )} */}
+        )} }
       </div>
     </>
   );
